@@ -1,7 +1,3 @@
-<script>
-    import "../style.css";
-</script>
-
 <svelte:head>
     <!-- head content -->
 
@@ -172,7 +168,7 @@
             <!-- Imagen De Perfil -->
             <div class="w-100 text-center">
                 <img
-                    src="/src/sentado(1-1).png"
+                    src="./sentado(1-1).png"
                     alt="logo.png"
                     class="img-fluid rounded-circle border border-black border-1"
                     width="320"
