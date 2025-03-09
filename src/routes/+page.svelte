@@ -4,6 +4,16 @@
 
 <svelte:head>
     <!-- head content -->
+
+    <meta charset="utf-8" />
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="/src/style.css" />
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Title -->
     <title>Presentación | Jhon Alex Burbano Gordillo</title>
 </svelte:head>
 
