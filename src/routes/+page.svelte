@@ -3,7 +3,7 @@
 
 <svelte:head>
     <title>Presentación | Jhon Alex Burbano Gordillo</title>
-    <link rel="stylesheet" href="/static/style.css" />
+    <link rel="stylesheet" href="%sveltekit.assets%/style.css" />
 </svelte:head>
 <div class="container-fluid border-start border-dark-subtle w-100 h-100">
     <div class="row">
@@ -160,7 +160,7 @@
             <!-- Imagen De Perfil -->
             <div class="w-100 text-center">
                 <img
-                    src="/static/sentado(1-1).png"
+                    src="%sveltekit.assets%/sentado(1-1).png"
                     alt="logo.png"
                     class="img-fluid rounded-circle border border-black border-1"
                     width="320"
