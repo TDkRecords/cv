@@ -1,9 +1,10 @@
 <script>
+    import "../../static/style.css";
+    import "./sentado(1-1).png";
 </script>
 
 <svelte:head>
     <title>Presentación | Jhon Alex Burbano Gordillo</title>
-    <link rel="stylesheet" href="/static/style.css" />
 </svelte:head>
 <div class="container-fluid border-start border-dark-subtle w-100 h-100">
     <div class="row">
@@ -160,8 +161,8 @@
             <!-- Imagen De Perfil -->
             <div class="w-100 text-center">
                 <img
-                    src="sentado(1-1).png"
-                    alt="/src/routes/sentado(1-1).png"
+                    src="./sentado(1-1).png"
+                    alt="logo.png"
                     class="img-fluid rounded-circle border border-black border-1"
                     width="320"
                 />
