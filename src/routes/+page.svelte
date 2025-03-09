@@ -1,9 +1,9 @@
 <script>
-    import "../style.css";
 </script>
 
 <svelte:head>
     <title>Presentación | Jhon Alex Burbano Gordillo</title>
+    <link rel="stylesheet" href="/static/style.css" />
 </svelte:head>
 <div class="container-fluid border-start border-dark-subtle w-100 h-100">
     <div class="row">
