@@ -160,7 +160,7 @@
             <!-- Imagen De Perfil -->
             <div class="w-100 text-center">
                 <img
-                    src="%sveltekit.assets%/sentado(1-1).png"
+                    src="/static/sentado(1-1).png"
                     alt="logo.png"
                     class="img-fluid rounded-circle border border-black border-1"
                     width="320"
