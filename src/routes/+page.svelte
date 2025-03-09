@@ -160,8 +160,8 @@
             <!-- Imagen De Perfil -->
             <div class="w-100 text-center">
                 <img
-                    src="./sentado(1-1).png"
-                    alt="logo.png"
+                    src="sentado(1-1).png"
+                    alt="/src/routes/sentado(1-1).png"
                     class="img-fluid rounded-circle border border-black border-1"
                     width="320"
                 />
