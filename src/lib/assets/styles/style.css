@@ -1,16 +1,16 @@
 @font-face {
     font-family: Titulos;
-    src: url("./fonts/Titulos/static/Commissioner-Light.ttf");
+    src: url("/src/fonts/Titulos/static/Commissioner-Light.ttf");
 }
 
 @font-face {
     font-family: Subtitulos;
-    src: url("./fonts/Subtitulos/Tinos-Bold.ttf");
+    src: url("/src/fonts/Subtitulos/Tinos-Bold.ttf");
 }
 
 @font-face {
     font-family: Parrafos;
-    src: url("./fonts/Parrafos/static/RobotoFlex-Regular.ttf");
+    src: url("/src/fonts/Parrafos/static/RobotoFlex-Regular.ttf");
 }
 
 * {

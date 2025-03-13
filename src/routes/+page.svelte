@@ -1,10 +1,12 @@
+<script>
+    import profileIMG from "$lib/assets/images/sentado(1-1).png";
+    import "$lib/assets/styles/style.css";
+</script>
+
 <svelte:head>
     <!-- head content -->
 
     <meta charset="utf-8" />
-
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="/src/style.css" />
 
     <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -168,7 +170,7 @@
             <!-- Imagen De Perfil -->
             <div class="w-100 text-center">
                 <img
-                    src="./sentado(1-1).png"
+                    src={profileIMG}
                     alt="logo.png"
                     class="img-fluid rounded-circle border border-black border-1"
                     width="320"
