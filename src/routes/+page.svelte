@@ -1,5 +1,6 @@
 <script>
     import profileIMG from "$lib/assets/images/sentado(1-1).png";
+    import profileIMG2 from "$lib/assets/images/cv-profile.jpg";
     import "$lib/assets/styles/style.css";
 </script>
 
@@ -170,7 +171,7 @@
             <!-- Imagen De Perfil -->
             <div class="w-100 text-center">
                 <img
-                    src={profileIMG}
+                    src={profileIMG2}
                     alt="logo.png"
                     class="img-fluid rounded-circle border border-black border-1"
                     width="320"
