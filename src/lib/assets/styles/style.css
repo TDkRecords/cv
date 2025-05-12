@@ -1,39 +1,50 @@
-@font-face {
-    font-family: Titulos;
-    src: url("/src/fonts/Titulos/static/Commissioner-Light.ttf");
-}
+    @font-face {
+        font-family: Titulos;
+        src: url("/src/fonts/Titulos/static/Commissioner-Light.ttf");
+    }
 
-@font-face {
-    font-family: Subtitulos;
-    src: url("/src/fonts/Subtitulos/Tinos-Bold.ttf");
-}
+    @font-face {
+        font-family: Subtitulos;
+        src: url("/src/fonts/Subtitulos/Tinos-Bold.ttf");
+    }
 
-@font-face {
-    font-family: Parrafos;
-    src: url("/src/fonts/Parrafos/static/RobotoFlex-Regular.ttf");
-}
+    @font-face {
+        font-family: Parrafos;
+        src: url("/src/fonts/Parrafos/static/RobotoFlex-Regular.ttf");
+    }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-h1,
-small {
-    font-family: Titulos;
-}
+    h1,
+    small {
+        font-family: Titulos;
+    }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: Subtitulos;
-}
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Subtitulos;
+    }
 
-p,
-li {
-    font-family: Parrafos;
-    line-height: 1.4;
-}
+    p,
+    li {
+        font-family: Parrafos;
+        line-height: 1.4;
+    }
+
+    a {
+        text-decoration: none;
+        color: #151515;
+        transition: all 175ms ease-in-out;
+    }
+
+    a:hover {
+        cursor: pointer;
+        color: darkslateblue;
+    }

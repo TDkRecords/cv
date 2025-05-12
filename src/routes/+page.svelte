@@ -1,25 +1,28 @@
 <script>
     import profileIMG from "$lib/assets/images/sentado(1-1).png";
     import profileIMG2 from "$lib/assets/images/cv-profile.jpg";
+    import AntecedentesJudiciales from "$lib/assets/images/AntecedentesJudiciales.jpg";
+    import ActaGrado from "$lib/assets/images/Acta de grado.jpg";
+    import CedulaFrente from "$lib/assets/images/C.C Alex_page-0001.jpg";
+    import CedulaReverso from "$lib/assets/images/C.C Alex_page-0002.jpg";
+    /* PDFS */
+    import CedulaPDF from "$lib/assets/pdf/Cedula-Alex.pdf";
+    import ActaGradoPDF from "$lib/assets/pdf/Acta de grado.pdf";
+    import AntecedentesJudicialesPDF from "$lib/assets/pdf/AntecedentesJudiciales.pdf";
+
+    /* ESTILOS GLOBALES */
     import "$lib/assets/styles/style.css";
 </script>
 
 <svelte:head>
-    <!-- head content -->
-
     <meta charset="utf-8" />
-
-    <!-- Viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Title -->
     <title>Presentación | Jhon Alex Burbano Gordillo</title>
 </svelte:head>
 
 <div class="container-fluid border-start border-dark-subtle w-100 h-100">
     <div class="row">
         <!-- Primera Columna -->
-        <div class="col-sm-7 p-5 border-start border black">
+        <div class="col-sm-8 p-5 border-start border black">
             <div>
                 <div class="text-end mt-5">
                     <h1>Jhon Alex <br /> Burbano Gordillo</h1>
@@ -167,7 +170,7 @@
             </div>
         </div>
         <!-- Segunda Columna -->
-        <div class="col-sm-5 bg-secondary-subtle p-5">
+        <div class="col-sm-4 bg-secondary-subtle p-5">
             <!-- Imagen De Perfil -->
             <div class="w-100 text-center">
                 <img
@@ -247,6 +250,77 @@
                         <li>Inglés (Intermedio)</li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-dark-subtle">
+    <div class="row p-5">
+        <div class="col-md-6">
+            <div class="m-auto text-center my-4">
+                <h3>
+                    <a
+                        href={CedulaPDF}
+                        download="Cedula_Jhon_Alex_Burbano_Gordillo.pdf"
+                    >
+                        Cédula Frente
+                    </a>
+                </h3>
+
+                <img
+                    class="img-fluid"
+                    src={CedulaFrente}
+                    alt="CedulaFrente.jpg"
+                />
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="m-auto text-center my-4">
+                <h3>
+                    <a
+                        href={CedulaPDF}
+                        download="Cedula_Jhon_Alex_Burbano_Gordillo.pdf"
+                    >
+                        Cedula Reverso
+                    </a>
+                </h3>
+                <img
+                    class="img-fluid"
+                    src={CedulaReverso}
+                    alt="CedulaReverso.jpg"
+                />
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="m-auto text-center my-4">
+                <h3>
+                    <a
+                        href={AntecedentesJudicialesPDF}
+                        download="AntecedentesJudiciales_Jhon_Alex_Burbano_Gordillo.pdf"
+                    >
+                        Antecedentes Judiciales
+                    </a>
+                </h3>
+                <img
+                    class="img-fluid"
+                    src={AntecedentesJudiciales}
+                    alt="Antecedentes.jpg"
+                />
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="m-auto text-center my-4">
+                <h3>
+                    <a
+                        href={ActaGradoPDF}
+                        download="Acta_de_grado_Jhon_Alex_Burbano_Gordillo.pdf"
+                    >
+                        Acta de Grado
+                    </a>
+                </h3>
+                <img class="img-fluid" src={ActaGrado} alt="ActadeGrado.jpg" />
             </div>
         </div>
     </div>
