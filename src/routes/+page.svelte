@@ -102,6 +102,94 @@
                             </li>
                         </ul>
                     </div>
+                    <div class="ms-5 mt-5">
+                        <h6>
+                            DESARROLLADOR WEB <br />
+                            <small class="text-secondary">
+                                Independiente
+                            </small>
+                        </h6>
+                    </div>
+                    <div class="ms-4">
+                        <ul>
+                            <li class="text-secondary mb-3">
+                                <div class="text-black">
+                                    Petlife - Aplicación web para la gestión de
+                                    mascotas
+                                </div>
+                                <ol>
+                                    <li>Proyecto meramente demostrativo</li>
+                                    <li>
+                                        Utilización de Sveltekit, Firebase y
+                                        Bootstrap
+                                    </li>
+                                    <li>Incluye Pagina Administrativa</li>
+                                </ol>
+                                <div>
+                                    Enlace:
+
+                                    <a
+                                        href="http://petlife-colombia.vercel.app/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-black-50"
+                                    >
+                                        petlife-colombia.vercel.app
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-secondary mb-3">
+                                <div class="text-black">
+                                    New Style - Tienda de calzado
+                                </div>
+                                <ol>
+                                    <li>Proyecto meramente demostrativo</li>
+                                    <li>
+                                        Utilización de Sveltekit, Firebase y
+                                        Bootstrap
+                                    </li>
+                                    <li>Incluye Pagina Administrativa</li>
+                                </ol>
+                                <div>
+                                    Enlace:
+
+                                    <a
+                                        href="http://newstyle-colombia.vercel.app/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-black-50"
+                                    >
+                                        newstyle-colombia.vercel.app
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="text-secondary mb-3">
+                                <div class="text-black">
+                                    Panel de reconocimiento para Google
+                                </div>
+                                <ol>
+                                    <li>
+                                        Proyecto para indexar informacion del
+                                        artista Axel Josh <br /> en las busquedas
+                                        de Google
+                                    </li>
+                                    <li>Utilización de Sveltekit y Tailwind</li>
+                                </ol>
+                                <div>
+                                    Enlace:
+
+                                    <a
+                                        href="http://axeljosh.vercel.app/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-black-50"
+                                    >
+                                        axeljosh.vercel.app
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="mt-5">
                     <h3 class="text-black-50">EDUCACIÓN</h3>
