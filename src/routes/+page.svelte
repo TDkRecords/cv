@@ -3,15 +3,14 @@
     import profileIMG2 from "$lib/assets/images/cv-profile.jpg";
     import AntecedentesJudiciales from "$lib/assets/images/AntecedentesJudiciales.jpg";
     import ActaGrado from "$lib/assets/images/Acta de grado.jpg";
-    import CedulaFrente from "$lib/assets/images/C.C Alex_page-0001.jpg";
-    import CedulaReverso from "$lib/assets/images/C.C Alex_page-0002.jpg";
     /* PDFS */
-    import CedulaPDF from "$lib/assets/pdf/Cedula-Alex.pdf";
     import ActaGradoPDF from "$lib/assets/pdf/Acta de grado.pdf";
     import AntecedentesJudicialesPDF from "$lib/assets/pdf/AntecedentesJudiciales.pdf";
-
     /* ESTILOS GLOBALES */
     import "$lib/assets/styles/style.css";
+
+    import Experience from "$lib/components/Experience.svelte";
+    import Education from "$lib/components/Education.svelte";
 </script>
 
 <svelte:head>
@@ -31,230 +30,11 @@
                 <div class="mt-5">
                     <h3 class="text-black-50">EXPERIENCIA</h3>
                 </div>
-                <div class="ms-4">
-                    <div class="ms-5 mt-4">
-                        <h6>
-                            PRODUCTOR MUSICAL <br />
-                            <small class="text-secondary">
-                                Independiente
-                            </small>
-                        </h6>
-                    </div>
-                    <div class="ms-4">
-                        <ul>
-                            <li class="text-secondary">
-                                Control de los procesos de producción,
-                                grabación, mezcla y masterización.
-                            </li>
-                            <li class="text-secondary">
-                                Realización de arreglos musicales, vocales y
-                                grabación de voces sobre bases instrumentales.
-                            </li>
-                            <li class="text-secondary">
-                                Desarrollo de la visión artistica del proyecto.
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="ms-5 mt-5">
-                        <h6>
-                            DISEÑADOR GRÁFICO <br />
-                            <small class="text-secondary"> Plaza Norte </small>
-                        </h6>
-                    </div>
-                    <div class="ms-4">
-                        <ul>
-                            <li class="text-secondary">
-                                Creación de proyectos de diseño exclusivo para
-                                los clientes desde el concepto hasta la
-                                finalización.
-                            </li>
-                            <li class="text-secondary">
-                                creación de piezas gráficas para la web, redes
-                                sociales y distintos formatos digitales.
-                            </li>
-                            <li class="text-secondary">
-                                creación de diseños de impacto para campañas de
-                                marketing digital.
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="ms-5 mt-5">
-                        <h6>
-                            PRACTICANTE <br />
-                            <small class="text-secondary">
-                                Soluciones Tecnologicas Empresariales
-                            </small>
-                        </h6>
-                    </div>
-                    <div class="ms-4">
-                        <ul>
-                            <li class="text-secondary">
-                                Cumplimiento de las tareas de trabajo recibidas
-                                al pie de la letra
-                            </li>
-                            <li class="text-secondary">
-                                Cumplimiento de los objetivos fijados en la
-                                practica.
-                            </li>
-                            <li class="text-secondary">
-                                Colaboración con el equipo de trabajo en el
-                                desarrollo de las tareas a cargo.
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="ms-5 mt-5">
-                        <h6>
-                            DESARROLLADOR WEB <br />
-                            <small class="text-secondary">
-                                Independiente
-                            </small>
-                        </h6>
-                    </div>
-                    <div class="ms-4">
-                        <ul>
-                            <li class="text-secondary mb-3">
-                                <div class="text-black">
-                                    Petlife - Aplicación web para la gestión de
-                                    mascotas
-                                </div>
-                                <ol>
-                                    <li>Proyecto meramente demostrativo</li>
-                                    <li>
-                                        Utilización de Sveltekit, Firebase y
-                                        Bootstrap
-                                    </li>
-                                    <li>Incluye Pagina Administrativa</li>
-                                </ol>
-                                <div>
-                                    Enlace:
-
-                                    <a
-                                        href="http://petlife-colombia.vercel.app/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        class="text-black-50"
-                                    >
-                                        petlife-colombia.vercel.app
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="text-secondary mb-3">
-                                <div class="text-black">
-                                    New Style - Tienda de calzado
-                                </div>
-                                <ol>
-                                    <li>Proyecto meramente demostrativo</li>
-                                    <li>
-                                        Utilización de Sveltekit, Firebase y
-                                        Bootstrap
-                                    </li>
-                                    <li>Incluye Pagina Administrativa</li>
-                                </ol>
-                                <div>
-                                    Enlace:
-
-                                    <a
-                                        href="http://newstyle-colombia.vercel.app/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        class="text-black-50"
-                                    >
-                                        newstyle-colombia.vercel.app
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="text-secondary mb-3">
-                                <div class="text-black">
-                                    Panel de reconocimiento para Google
-                                </div>
-                                <ol>
-                                    <li>
-                                        Proyecto para indexar informacion del
-                                        artista Axel Josh <br /> en las busquedas
-                                        de Google
-                                    </li>
-                                    <li>Utilización de Sveltekit y Tailwind</li>
-                                </ol>
-                                <div>
-                                    Enlace:
-
-                                    <a
-                                        href="http://axeljosh.vercel.app/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        class="text-black-50"
-                                    >
-                                        axeljosh.vercel.app
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <Experience />
                 <div class="mt-5">
                     <h3 class="text-black-50">EDUCACIÓN</h3>
                 </div>
-                <div class="row mt-5 border-bottom p-1">
-                    <div class="col">
-                        <p>
-                            <i class="bi bi-arrow-return-right"></i>
-                            Ene 2010
-                            <br />
-                            <i class="bi bi-arrow-return-right"></i>
-                            Nov 2019
-                        </p>
-                    </div>
-                    <div class="col">
-                        <h5>
-                            Institución Educativa Municipal <br />
-                            <small class="text-secondary">
-                                Tecnico Industrial | Pasto, Nar
-                            </small>
-                        </h5>
-                    </div>
-                </div>
-                <div class="row mt-3 border-bottom p-1">
-                    <div class="col">
-                        <p>
-                            <i class="bi bi-arrow-return-right"></i>
-                            Ene 2020
-                            <br />
-                            <i class="bi bi-arrow-return-right"></i>
-                            Dic 2022
-                        </p>
-                    </div>
-                    <div class="col">
-                        <h5>
-                            Institución Educativa <br />
-                            <small class="text-secondary">
-                                San Nicolas | Pasto, Nar
-                            </small>
-                        </h5>
-                        <ul>
-                            <li class="text-black-50">
-                                Mención Honorifica y Medalla por Excelencia -
-                                prom 2022
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row mt-3 p-1">
-                    <div class="col">
-                        <p>
-                            <i class="bi bi-arrow-return-right"></i>
-                            Ago 2023
-                            <br />
-                            <i class="bi bi-arrow-return-right"></i>
-                            Actualmente
-                        </p>
-                    </div>
-                    <div class="col">
-                        <h5>
-                            Cinar Sistemas
-                            <small class="text-secondary"> | Pasto, Nar </small>
-                        </h5>
-                    </div>
-                </div>
+                <Education />
             </div>
         </div>
         <!-- Segunda Columna -->
@@ -345,42 +125,6 @@
 
 <div class="container-fluid bg-dark-subtle">
     <div class="row p-5">
-        <div class="col-md-6">
-            <div class="m-auto text-center my-4">
-                <h3>
-                    <a
-                        href={CedulaPDF}
-                        download="Cedula_Jhon_Alex_Burbano_Gordillo.pdf"
-                    >
-                        Cédula Frente
-                    </a>
-                </h3>
-
-                <img
-                    class="img-fluid"
-                    src={CedulaFrente}
-                    alt="CedulaFrente.jpg"
-                />
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="m-auto text-center my-4">
-                <h3>
-                    <a
-                        href={CedulaPDF}
-                        download="Cedula_Jhon_Alex_Burbano_Gordillo.pdf"
-                    >
-                        Cedula Reverso
-                    </a>
-                </h3>
-                <img
-                    class="img-fluid"
-                    src={CedulaReverso}
-                    alt="CedulaReverso.jpg"
-                />
-            </div>
-        </div>
-
         <div class="col-md-6">
             <div class="m-auto text-center my-4">
                 <h3>
