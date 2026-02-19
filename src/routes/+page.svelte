@@ -56,11 +56,11 @@
                 </p>
                 <p>
                     <i class="bi bi-house-door"></i>
-                    Cra 15A #1 sur 17
+                    Cra 15A #1 sur 40
                 </p>
                 <p>
                     <i class="bi bi-phone"></i>
-                    +57 315 960 3020
+                    +57 320 500 8225
                 </p>
                 <p>
                     <i class="bi bi-calendar-event"></i>

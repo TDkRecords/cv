@@ -19,7 +19,7 @@
             ],
         },
         {
-            titulo: "Vendedor de comida rapida",
+            titulo: "COMIDA RAPIDA",
             empresa: "Parque infantil",
             descripcion: [
                 "Preparar la comida rapida",
@@ -31,7 +31,7 @@
             ],
         },
         {
-            titulo: "Mesero",
+            titulo: "MESERO",
             empresa: "Restaurante Chipichape",
             descripcion: [
                 "Atencion al cliente",
