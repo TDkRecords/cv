@@ -69,7 +69,7 @@
                     ],
                     enlace: "https://axeljosh.vercel.app/",
                 },
-                {
+                /* {
                     nombre: "Demon Store",
                     detalles: [
                         "Proyecto real hecho para administrar la tienda de ropa DemonStore utilizando sveltekit y tailwind",
@@ -92,7 +92,7 @@
                         "La base de datos utilizada es firebase",
                     ],
                     enlace: "https://acorde.vercel.app",
-                },
+                }, */
             ],
         },
     ];
